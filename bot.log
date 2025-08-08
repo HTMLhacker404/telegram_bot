@@ -1,0 +1,492 @@
+2025-04-25 08:41:00,768 - root - INFO - Синхронизированы админы. Итоговый список: [872122845]
+2025-04-25 08:41:00,768 - root - INFO - Список администраторов: [872122845]
+2025-04-25 08:41:01,339 - root - INFO - Бот запущен
+2025-04-25 08:41:01,339 - aiogram.dispatcher - INFO - Start polling
+2025-04-25 08:41:01,421 - aiogram.dispatcher - INFO - Run polling for bot @LegendDonateBot id=7923728677 - 'Legend Store'
+2025-04-25 08:41:25,375 - aiogram.event - INFO - Update id=328956338 is handled. Duration 343 ms by bot id=7923728677
+2025-04-25 08:41:30,238 - aiogram.event - INFO - Update id=328956339 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 08:41:33,086 - aiogram.event - INFO - Update id=328956340 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 08:41:35,807 - aiogram.event - INFO - Update id=328956341 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 08:41:36,681 - aiogram.event - INFO - Update id=328956342 is handled. Duration 110 ms by bot id=7923728677
+2025-04-25 08:41:37,767 - aiogram.event - INFO - Update id=328956343 is handled. Duration 156 ms by bot id=7923728677
+2025-04-25 08:41:38,617 - aiogram.event - INFO - Update id=328956344 is handled. Duration 156 ms by bot id=7923728677
+2025-04-25 08:41:39,370 - aiogram.event - INFO - Update id=328956345 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 08:41:42,737 - aiogram.event - INFO - Update id=328956346 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 08:41:45,157 - aiogram.event - INFO - Update id=328956347 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 08:41:46,472 - aiogram.event - INFO - Update id=328956348 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 08:41:47,624 - aiogram.event - INFO - Update id=328956349 is handled. Duration 155 ms by bot id=7923728677
+2025-04-25 08:41:49,526 - aiogram.event - INFO - Update id=328956350 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 08:41:50,787 - aiogram.event - INFO - Update id=328956351 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 08:41:52,008 - aiogram.event - INFO - Update id=328956352 is handled. Duration 188 ms by bot id=7923728677
+2025-04-25 08:41:53,496 - aiogram.event - INFO - Update id=328956353 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 08:41:54,920 - aiogram.event - INFO - Update id=328956354 is handled. Duration 172 ms by bot id=7923728677
+2025-04-25 08:41:56,230 - aiogram.event - INFO - Update id=328956355 is handled. Duration 156 ms by bot id=7923728677
+2025-04-25 08:41:57,479 - aiogram.event - INFO - Update id=328956356 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 08:41:58,994 - aiogram.event - INFO - Update id=328956357 is handled. Duration 233 ms by bot id=7923728677
+2025-04-25 08:42:02,766 - aiogram.event - INFO - Update id=328956358 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 08:42:04,041 - aiogram.event - INFO - Update id=328956359 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 08:42:04,740 - aiogram.event - INFO - Update id=328956360 is handled. Duration 77 ms by bot id=7923728677
+2025-04-25 08:42:07,493 - aiogram.event - INFO - Update id=328956361 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 08:42:08,558 - aiogram.event - INFO - Update id=328956362 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 08:42:09,339 - aiogram.event - INFO - Update id=328956363 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 08:42:10,549 - aiogram.event - INFO - Update id=328956364 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 08:42:11,890 - aiogram.event - INFO - Update id=328956365 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 08:43:33,717 - aiogram.event - INFO - Update id=328956366 is not handled. Duration 0 ms by bot id=7923728677
+2025-04-25 08:43:33,717 - aiogram.event - ERROR - Cause exception while process update id=328956366 by bot id=7923728677
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\OneDrive\Рабочий стол\Telegram_bot\handlers\admin_handlers.py", line 135, in admin_show_order_detail
+    text += (
+    ^^^^
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+2025-04-25 08:43:39,144 - aiogram.event - INFO - Update id=328956367 is not handled. Duration 0 ms by bot id=7923728677
+2025-04-25 08:43:39,145 - aiogram.event - ERROR - Cause exception while process update id=328956367 by bot id=7923728677
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\OneDrive\Рабочий стол\Telegram_bot\handlers\admin_handlers.py", line 135, in admin_show_order_detail
+    text += (
+    ^^^^
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+2025-04-25 08:43:55,504 - aiogram.event - INFO - Update id=328956368 is handled. Duration 250 ms by bot id=7923728677
+2025-04-25 08:44:01,324 - aiogram.event - INFO - Update id=328956369 is handled. Duration 218 ms by bot id=7923728677
+2025-04-25 08:44:03,227 - aiogram.event - INFO - Update id=328956370 is handled. Duration 140 ms by bot id=7923728677
+2025-04-25 08:44:05,291 - aiogram.event - INFO - Update id=328956371 is not handled. Duration 15 ms by bot id=7923728677
+2025-04-25 08:44:08,019 - aiogram.event - INFO - Update id=328956372 is handled. Duration 219 ms by bot id=7923728677
+2025-04-25 08:44:11,231 - aiogram.event - INFO - Update id=328956373 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 08:44:28,386 - aiogram.event - INFO - Update id=328956374 is handled. Duration 266 ms by bot id=7923728677
+2025-04-25 08:47:13,797 - aiogram.event - INFO - Update id=328956375 is not handled. Duration 0 ms by bot id=7923728677
+2025-04-25 08:47:13,798 - aiogram.event - ERROR - Cause exception while process update id=328956375 by bot id=7923728677
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\OneDrive\Рабочий стол\Telegram_bot\handlers\admin_handlers.py", line 135, in admin_show_order_detail
+    text += (
+    ^^^^
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+2025-04-25 08:47:27,973 - aiogram.event - INFO - Update id=328956376 is handled. Duration 312 ms by bot id=7923728677
+2025-04-25 08:53:06,120 - aiogram.event - INFO - Update id=328956377 is handled. Duration 343 ms by bot id=7923728677
+2025-04-25 08:53:12,845 - aiogram.event - INFO - Update id=328956378 is handled. Duration 187 ms by bot id=7923728677
+2025-04-25 08:53:15,056 - aiogram.event - INFO - Update id=328956379 is not handled. Duration 0 ms by bot id=7923728677
+2025-04-25 08:53:19,773 - aiogram.event - INFO - Update id=328956380 is handled. Duration 156 ms by bot id=7923728677
+2025-04-25 08:53:25,731 - aiogram.event - INFO - Update id=328956381 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 08:53:27,231 - aiogram.event - INFO - Update id=328956382 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 08:53:28,653 - aiogram.event - INFO - Update id=328956383 is handled. Duration 593 ms by bot id=7923728677
+2025-04-25 08:54:11,976 - aiogram.event - INFO - Update id=328956384 is handled. Duration 391 ms by bot id=7923728677
+2025-04-25 08:54:15,726 - aiogram.event - INFO - Update id=328956385 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 08:54:22,581 - aiogram.event - INFO - Update id=328956386 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 08:54:24,000 - aiogram.event - INFO - Update id=328956387 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 08:54:25,621 - aiogram.event - INFO - Update id=328956388 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 08:54:29,293 - aiogram.event - INFO - Update id=328956389 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 08:54:30,931 - aiogram.event - INFO - Update id=328956390 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 08:54:32,396 - aiogram.event - INFO - Update id=328956391 is handled. Duration 656 ms by bot id=7923728677
+2025-04-25 08:56:21,836 - aiogram.event - INFO - Update id=328956392 is handled. Duration 405 ms by bot id=7923728677
+2025-04-25 09:08:58,311 - aiogram.event - INFO - Update id=328956393 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 09:09:14,150 - aiogram.event - INFO - Update id=328956394 is handled. Duration 281 ms by bot id=7923728677
+2025-04-25 09:09:15,094 - aiogram.event - INFO - Update id=328956395 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 09:09:43,637 - aiogram.event - INFO - Update id=328956396 is handled. Duration 327 ms by bot id=7923728677
+2025-04-25 09:09:44,904 - aiogram.event - INFO - Update id=328956397 is handled. Duration 218 ms by bot id=7923728677
+2025-04-25 09:10:58,984 - aiogram.event - INFO - Update id=328956398 is handled. Duration 265 ms by bot id=7923728677
+2025-04-25 09:11:02,729 - aiogram.event - INFO - Update id=328956399 is handled. Duration 140 ms by bot id=7923728677
+2025-04-25 09:11:04,592 - aiogram.event - INFO - Update id=328956400 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:11:07,409 - aiogram.event - INFO - Update id=328956401 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:11:09,502 - aiogram.event - INFO - Update id=328956402 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:11:12,405 - aiogram.event - INFO - Update id=328956403 is handled. Duration 140 ms by bot id=7923728677
+2025-04-25 09:12:56,675 - aiogram.event - INFO - Update id=328956404 is handled. Duration 405 ms by bot id=7923728677
+2025-04-25 09:12:57,980 - aiogram.event - INFO - Update id=328956405 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:12:59,576 - aiogram.event - INFO - Update id=328956406 is handled. Duration 250 ms by bot id=7923728677
+2025-04-25 09:13:01,459 - aiogram.event - INFO - Update id=328956407 is handled. Duration 250 ms by bot id=7923728677
+2025-04-25 09:13:04,482 - aiogram.event - INFO - Update id=328956408 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:13:05,654 - aiogram.event - INFO - Update id=328956409 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:13:14,086 - aiogram.event - INFO - Update id=328956410 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 09:13:15,363 - aiogram.event - INFO - Update id=328956411 is handled. Duration 312 ms by bot id=7923728677
+2025-04-25 09:13:16,132 - aiogram.event - INFO - Update id=328956412 is not handled. Duration 0 ms by bot id=7923728677
+2025-04-25 09:13:16,132 - aiogram.event - ERROR - Cause exception while process update id=328956412 by bot id=7923728677
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meren\AppData\Roaming\Python\Python311\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\meren\OneDrive\Рабочий стол\Telegram_bot\handlers\admin_handlers.py", line 135, in admin_show_order_detail
+    text += (
+    ^^^^
+UnboundLocalError: cannot access local variable 'text' where it is not associated with a value
+2025-04-25 09:13:18,399 - aiogram.event - INFO - Update id=328956413 is handled. Duration 343 ms by bot id=7923728677
+2025-04-25 09:13:19,399 - aiogram.event - INFO - Update id=328956414 is handled. Duration 203 ms by bot id=7923728677
+2025-04-25 09:13:20,987 - aiogram.event - INFO - Update id=328956415 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 09:13:23,172 - aiogram.event - INFO - Update id=328956416 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 09:13:25,743 - aiogram.event - INFO - Update id=328956417 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 09:13:27,727 - aiogram.event - INFO - Update id=328956418 is handled. Duration 1031 ms by bot id=7923728677
+2025-04-25 09:13:28,978 - aiogram.event - INFO - Update id=328956419 is handled. Duration 250 ms by bot id=7923728677
+2025-04-25 09:13:32,718 - aiogram.event - INFO - Update id=328956420 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:13:34,062 - aiogram.event - INFO - Update id=328956421 is handled. Duration 203 ms by bot id=7923728677
+2025-04-25 09:13:37,967 - aiogram.event - INFO - Update id=328956422 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:13:39,241 - aiogram.event - INFO - Update id=328956423 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:13:39,883 - aiogram.event - INFO - Update id=328956424 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 09:13:42,299 - aiogram.event - INFO - Update id=328956425 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:13:43,385 - aiogram.event - INFO - Update id=328956426 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:13:44,681 - aiogram.event - INFO - Update id=328956427 is handled. Duration 610 ms by bot id=7923728677
+2025-04-25 09:13:45,983 - aiogram.event - INFO - Update id=328956428 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 09:13:49,602 - aiogram.event - INFO - Update id=328956429 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:13:56,449 - aiogram.event - INFO - Update id=328956430 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 09:13:57,908 - aiogram.event - INFO - Update id=328956431 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:13:59,379 - aiogram.event - INFO - Update id=328956432 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 09:14:02,944 - aiogram.event - INFO - Update id=328956433 is handled. Duration 219 ms by bot id=7923728677
+2025-04-25 09:14:04,183 - aiogram.event - INFO - Update id=328956434 is handled. Duration 110 ms by bot id=7923728677
+2025-04-25 09:14:05,010 - aiogram.event - INFO - Update id=328956435 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:14:05,816 - aiogram.event - INFO - Update id=328956436 is handled. Duration 219 ms by bot id=7923728677
+2025-04-25 09:14:08,505 - aiogram.event - INFO - Update id=328956437 is handled. Duration 155 ms by bot id=7923728677
+2025-04-25 09:14:10,389 - aiogram.event - INFO - Update id=328956438 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:14:11,381 - aiogram.event - INFO - Update id=328956439 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 09:14:13,431 - aiogram.event - INFO - Update id=328956440 is handled. Duration 141 ms by bot id=7923728677
+2025-04-25 09:14:14,516 - aiogram.event - INFO - Update id=328956441 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 09:14:16,252 - aiogram.event - INFO - Update id=328956442 is handled. Duration 655 ms by bot id=7923728677
+2025-04-25 09:14:17,745 - aiogram.event - INFO - Update id=328956443 is handled. Duration 422 ms by bot id=7923728677
+2025-04-25 09:14:20,702 - aiogram.event - INFO - Update id=328956444 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 09:14:22,117 - aiogram.event - INFO - Update id=328956445 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:14:23,394 - aiogram.event - INFO - Update id=328956446 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:14:27,299 - aiogram.event - INFO - Update id=328956447 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 09:14:32,249 - aiogram.event - INFO - Update id=328956448 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 09:14:33,571 - aiogram.event - INFO - Update id=328956449 is handled. Duration 186 ms by bot id=7923728677
+2025-04-25 09:14:35,373 - aiogram.event - INFO - Update id=328956450 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:14:36,576 - aiogram.event - INFO - Update id=328956451 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 09:14:37,636 - aiogram.event - INFO - Update id=328956452 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:14:38,620 - aiogram.event - INFO - Update id=328956453 is handled. Duration 218 ms by bot id=7923728677
+2025-04-25 09:14:40,616 - aiogram.event - INFO - Update id=328956454 is handled. Duration 234 ms by bot id=7923728677
+2025-04-25 09:14:41,709 - aiogram.event - INFO - Update id=328956455 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 09:14:43,355 - aiogram.event - INFO - Update id=328956456 is handled. Duration 171 ms by bot id=7923728677
+2025-04-25 09:14:45,136 - aiogram.event - INFO - Update id=328956457 is handled. Duration 219 ms by bot id=7923728677
+2025-04-25 09:49:20,302 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-25 09:49:20,556 - root - INFO - Сессия бота закрыта
+2025-04-25 09:49:20,556 - aiogram.dispatcher - INFO - Polling stopped for bot @LegendDonateBot id=7923728677 - 'Legend Store'
+2025-04-25 09:49:30,859 - root - INFO - Синхронизированы админы. Итоговый список: [872122845]
+2025-04-25 09:49:30,859 - root - INFO - Список администраторов: [872122845]
+2025-04-25 09:49:31,415 - root - INFO - Бот запущен
+2025-04-25 09:49:31,415 - aiogram.dispatcher - INFO - Start polling
+2025-04-25 09:49:31,494 - aiogram.dispatcher - INFO - Run polling for bot @LegendDonateBot id=7923728677 - 'Legend Store'
+2025-04-25 09:53:04,953 - aiogram.event - INFO - Update id=328956458 is handled. Duration 375 ms by bot id=7923728677
+2025-04-25 09:53:11,171 - aiogram.event - INFO - Update id=328956459 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:53:12,492 - aiogram.event - INFO - Update id=328956460 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 09:53:14,652 - aiogram.event - INFO - Update id=328956461 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:53:15,361 - aiogram.event - INFO - Update id=328956462 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 09:54:54,557 - aiogram.event - INFO - Update id=328956463 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 09:54:55,369 - aiogram.event - INFO - Update id=328956464 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 09:54:55,977 - aiogram.event - INFO - Update id=328956465 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 09:55:04,537 - aiogram.event - INFO - Update id=328956466 is handled. Duration 281 ms by bot id=7923728677
+2025-04-25 10:03:09,991 - aiogram.event - INFO - Update id=328956467 is handled. Duration 640 ms by bot id=7923728677
+2025-04-25 10:03:11,862 - aiogram.event - INFO - Update id=328956468 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:03:44,743 - aiogram.event - INFO - Update id=328956469 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 10:03:46,481 - aiogram.event - INFO - Update id=328956470 is handled. Duration 327 ms by bot id=7923728677
+2025-04-25 10:03:57,136 - aiogram.event - INFO - Update id=328956471 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:04:03,967 - aiogram.event - INFO - Update id=328956472 is handled. Duration 250 ms by bot id=7923728677
+2025-04-25 10:04:09,471 - aiogram.event - INFO - Update id=328956473 is handled. Duration 452 ms by bot id=7923728677
+2025-04-25 10:04:15,408 - aiogram.event - INFO - Update id=328956474 is handled. Duration 203 ms by bot id=7923728677
+2025-04-25 10:04:22,118 - aiogram.event - INFO - Update id=328956475 is handled. Duration 218 ms by bot id=7923728677
+2025-04-25 10:04:31,726 - aiogram.event - INFO - Update id=328956476 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:04:36,652 - aiogram.event - INFO - Update id=328956477 is handled. Duration 234 ms by bot id=7923728677
+2025-04-25 10:04:40,890 - aiogram.event - INFO - Update id=328956478 is handled. Duration 281 ms by bot id=7923728677
+2025-04-25 10:04:44,266 - aiogram.event - INFO - Update id=328956479 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:04:58,367 - aiogram.event - INFO - Update id=328956480 is handled. Duration 218 ms by bot id=7923728677
+2025-04-25 10:13:28,652 - aiogram.event - INFO - Update id=328956481 is handled. Duration 359 ms by bot id=7923728677
+2025-04-25 10:13:35,657 - aiogram.event - INFO - Update id=328956482 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 10:13:37,703 - aiogram.event - INFO - Update id=328956483 is handled. Duration 186 ms by bot id=7923728677
+2025-04-25 10:13:42,847 - aiogram.event - INFO - Update id=328956484 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:13:54,188 - aiogram.event - INFO - Update id=328956485 is handled. Duration 219 ms by bot id=7923728677
+2025-04-25 10:14:03,568 - aiogram.event - INFO - Update id=328956486 is handled. Duration 141 ms by bot id=7923728677
+2025-04-25 10:14:04,821 - aiogram.event - INFO - Update id=328956487 is handled. Duration 188 ms by bot id=7923728677
+2025-04-25 10:14:05,825 - aiogram.event - INFO - Update id=328956488 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 10:14:06,612 - aiogram.event - INFO - Update id=328956489 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 10:14:07,330 - aiogram.event - INFO - Update id=328956490 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 10:14:11,137 - aiogram.event - INFO - Update id=328956491 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:14:25,976 - aiogram.event - INFO - Update id=328956492 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 10:15:08,721 - aiogram.event - INFO - Update id=328956493 is handled. Duration 312 ms by bot id=7923728677
+2025-04-25 10:20:24,761 - aiogram.event - INFO - Update id=328956494 is handled. Duration 281 ms by bot id=7923728677
+2025-04-25 10:20:28,456 - aiogram.event - INFO - Update id=328956495 is handled. Duration 296 ms by bot id=7923728677
+2025-04-25 10:20:29,752 - aiogram.event - INFO - Update id=328956496 is handled. Duration 265 ms by bot id=7923728677
+2025-04-25 10:20:30,970 - aiogram.event - INFO - Update id=328956497 is handled. Duration 187 ms by bot id=7923728677
+2025-04-25 10:20:31,865 - aiogram.event - INFO - Update id=328956498 is handled. Duration 187 ms by bot id=7923728677
+2025-04-25 10:20:32,972 - aiogram.event - INFO - Update id=328956499 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 10:20:34,086 - aiogram.event - INFO - Update id=328956500 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 10:20:35,424 - aiogram.event - INFO - Update id=328956501 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 10:20:37,566 - aiogram.event - INFO - Update id=328956502 is handled. Duration 219 ms by bot id=7923728677
+2025-04-25 10:20:38,644 - aiogram.event - INFO - Update id=328956503 is handled. Duration 172 ms by bot id=7923728677
+2025-04-25 10:20:39,607 - aiogram.event - INFO - Update id=328956504 is handled. Duration 187 ms by bot id=7923728677
+2025-04-25 10:20:40,690 - aiogram.event - INFO - Update id=328956505 is handled. Duration 188 ms by bot id=7923728677
+2025-04-25 10:20:41,335 - aiogram.event - INFO - Update id=328956506 is handled. Duration 171 ms by bot id=7923728677
+2025-04-25 10:20:43,406 - aiogram.event - INFO - Update id=328956507 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:20:52,595 - aiogram.event - INFO - Update id=328956508 is handled. Duration 219 ms by bot id=7923728677
+2025-04-25 10:20:54,050 - aiogram.event - INFO - Update id=328956509 is handled. Duration 250 ms by bot id=7923728677
+2025-04-25 10:20:56,822 - aiogram.event - INFO - Update id=328956510 is handled. Duration 233 ms by bot id=7923728677
+2025-04-25 10:21:13,370 - aiogram.event - INFO - Update id=328956511 is handled. Duration 280 ms by bot id=7923728677
+2025-04-25 10:25:25,054 - aiogram.event - INFO - Update id=328956512 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 10:25:26,028 - aiogram.event - INFO - Update id=328956513 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:25:32,370 - aiogram.event - INFO - Update id=328956514 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:25:34,367 - aiogram.event - INFO - Update id=328956515 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:25:35,939 - aiogram.event - INFO - Update id=328956516 is handled. Duration 110 ms by bot id=7923728677
+2025-04-25 10:25:38,035 - aiogram.event - INFO - Update id=328956517 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:25:40,626 - aiogram.event - INFO - Update id=328956518 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:25:44,213 - aiogram.event - INFO - Update id=328956519 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 10:25:46,035 - aiogram.event - INFO - Update id=328956520 is handled. Duration 140 ms by bot id=7923728677
+2025-04-25 10:25:47,294 - aiogram.event - INFO - Update id=328956521 is handled. Duration 187 ms by bot id=7923728677
+2025-04-25 10:25:49,626 - aiogram.event - INFO - Update id=328956522 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 10:25:50,906 - aiogram.event - INFO - Update id=328956523 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:25:51,961 - aiogram.event - INFO - Update id=328956524 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 10:25:52,905 - aiogram.event - INFO - Update id=328956525 is handled. Duration 203 ms by bot id=7923728677
+2025-04-25 10:27:07,523 - aiogram.event - INFO - Update id=328956526 is handled. Duration 625 ms by bot id=7923728677
+2025-04-25 10:27:15,962 - aiogram.event - INFO - Update id=328956527 is handled. Duration 141 ms by bot id=7923728677
+2025-04-25 10:27:21,064 - aiogram.event - INFO - Update id=328956528 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:32:05,848 - aiogram.event - INFO - Update id=328956529 is handled. Duration 375 ms by bot id=7923728677
+2025-04-25 10:32:53,371 - aiogram.event - INFO - Update id=328956530 is handled. Duration 265 ms by bot id=7923728677
+2025-04-25 10:37:52,828 - aiogram.event - INFO - Update id=328956531 is handled. Duration 296 ms by bot id=7923728677
+2025-04-25 10:37:57,021 - aiogram.event - INFO - Update id=328956532 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 10:37:58,765 - aiogram.event - INFO - Update id=328956533 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 10:38:01,221 - aiogram.event - INFO - Update id=328956534 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 10:38:05,275 - aiogram.event - INFO - Update id=328956535 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 10:59:41,560 - aiogram.event - INFO - Update id=328956536 is handled. Duration 844 ms by bot id=7923728677
+2025-04-25 10:59:48,330 - aiogram.event - INFO - Update id=328956537 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:59:49,739 - aiogram.event - INFO - Update id=328956538 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:59:50,658 - aiogram.event - INFO - Update id=328956539 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 10:59:52,621 - aiogram.event - INFO - Update id=328956540 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 10:59:53,562 - aiogram.event - INFO - Update id=328956541 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 10:59:55,263 - aiogram.event - INFO - Update id=328956542 is handled. Duration 813 ms by bot id=7923728677
+2025-04-25 10:59:56,483 - aiogram.event - INFO - Update id=328956543 is handled. Duration 296 ms by bot id=7923728677
+2025-04-25 11:00:04,551 - aiogram.event - INFO - Update id=328956544 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:00:05,693 - aiogram.event - INFO - Update id=328956545 is handled. Duration 110 ms by bot id=7923728677
+2025-04-25 11:00:07,374 - aiogram.event - INFO - Update id=328956546 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:00:09,614 - aiogram.event - INFO - Update id=328956547 is handled. Duration 781 ms by bot id=7923728677
+2025-04-25 11:00:14,918 - aiogram.event - INFO - Update id=328956548 is handled. Duration 469 ms by bot id=7923728677
+2025-04-25 11:00:24,480 - aiogram.event - INFO - Update id=328956549 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:00:52,884 - aiogram.event - INFO - Update id=328956550 is handled. Duration 313 ms by bot id=7923728677
+2025-04-25 11:00:54,869 - aiogram.event - INFO - Update id=328956551 is handled. Duration 186 ms by bot id=7923728677
+2025-04-25 11:00:56,293 - aiogram.event - INFO - Update id=328956552 is handled. Duration 155 ms by bot id=7923728677
+2025-04-25 11:00:59,396 - aiogram.event - INFO - Update id=328956553 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 11:01:00,517 - aiogram.event - INFO - Update id=328956554 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:01:02,215 - aiogram.event - INFO - Update id=328956555 is handled. Duration 734 ms by bot id=7923728677
+2025-04-25 11:01:55,443 - aiogram.event - INFO - Update id=328956556 is handled. Duration 360 ms by bot id=7923728677
+2025-04-25 11:01:56,673 - aiogram.event - INFO - Update id=328956557 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:02:15,046 - aiogram.event - INFO - Update id=328956558 is handled. Duration 452 ms by bot id=7923728677
+2025-04-25 11:02:18,473 - aiogram.event - INFO - Update id=328956559 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 11:16:03,981 - root - WARNING - Попытка доступа неадмина: 7077153651. Админы: [872122845]
+2025-04-25 11:16:03,981 - aiogram.event - INFO - Update id=328956560 is handled. Duration 0 ms by bot id=7923728677
+2025-04-25 11:16:12,775 - aiogram.event - INFO - Update id=328956561 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 11:16:41,152 - aiogram.event - INFO - Update id=328956562 is handled. Duration 297 ms by bot id=7923728677
+2025-04-25 11:16:42,627 - aiogram.event - INFO - Update id=328956563 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:16:47,090 - aiogram.event - INFO - Update id=328956564 is handled. Duration 202 ms by bot id=7923728677
+2025-04-25 11:17:12,559 - aiogram.event - INFO - Update id=328956565 is handled. Duration 281 ms by bot id=7923728677
+2025-04-25 11:17:19,759 - aiogram.event - INFO - Update id=328956566 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:17:38,181 - aiogram.event - INFO - Update id=328956567 is handled. Duration 281 ms by bot id=7923728677
+2025-04-25 11:17:40,350 - aiogram.event - INFO - Update id=328956568 is handled. Duration 141 ms by bot id=7923728677
+2025-04-25 11:17:48,358 - aiogram.event - INFO - Update id=328956569 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 11:17:50,180 - aiogram.event - INFO - Update id=328956570 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:18:00,555 - aiogram.event - INFO - Update id=328956571 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:18:01,180 - aiogram.event - INFO - Update id=328956572 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 11:19:06,901 - aiogram.event - INFO - Update id=328956573 is handled. Duration 312 ms by bot id=7923728677
+2025-04-25 11:19:11,506 - aiogram.event - INFO - Update id=328956574 is handled. Duration 218 ms by bot id=7923728677
+2025-04-25 11:19:24,748 - aiogram.event - INFO - Update id=328956575 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:19:54,871 - aiogram.event - INFO - Update id=328956576 is handled. Duration 343 ms by bot id=7923728677
+2025-04-25 11:20:04,465 - aiogram.event - INFO - Update id=328956577 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:20:11,756 - aiogram.event - INFO - Update id=328956578 is handled. Duration 93 ms by bot id=7923728677
+2025-04-25 11:20:13,629 - aiogram.event - INFO - Update id=328956579 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:20:18,475 - aiogram.event - INFO - Update id=328956580 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:20:20,781 - aiogram.event - INFO - Update id=328956581 is handled. Duration 359 ms by bot id=7923728677
+2025-04-25 11:20:52,974 - aiogram.event - INFO - Update id=328956582 is handled. Duration 280 ms by bot id=7923728677
+2025-04-25 11:20:54,019 - aiogram.event - INFO - Update id=328956583 is handled. Duration 109 ms by bot id=7923728677
+2025-04-25 11:20:56,064 - aiogram.event - INFO - Update id=328956584 is handled. Duration 94 ms by bot id=7923728677
+2025-04-25 11:20:58,182 - aiogram.event - INFO - Update id=328956585 is handled. Duration 110 ms by bot id=7923728677
+2025-04-25 11:21:07,200 - aiogram.event - INFO - Update id=328956586 is handled. Duration 327 ms by bot id=7923728677
+2025-04-25 11:21:14,027 - aiogram.event - INFO - Update id=328956587 is handled. Duration 234 ms by bot id=7923728677
+2025-04-25 11:21:15,749 - aiogram.event - INFO - Update id=328956588 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:21:33,869 - aiogram.event - INFO - Update id=328956589 is handled. Duration 515 ms by bot id=7923728677
+2025-04-25 11:22:15,085 - aiogram.event - INFO - Update id=328956590 is handled. Duration 280 ms by bot id=7923728677
+2025-04-25 11:22:17,699 - aiogram.event - INFO - Update id=328956591 is handled. Duration 125 ms by bot id=7923728677
+2025-04-25 11:22:19,826 - aiogram.event - INFO - Update id=328956592 is handled. Duration 108 ms by bot id=7923728677
+2025-04-25 11:26:38,628 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-25 11:26:38,886 - root - INFO - Сессия бота закрыта
+2025-04-25 11:26:38,888 - aiogram.dispatcher - INFO - Polling stopped for bot @LegendDonateBot id=7923728677 - 'Legend Store'
