@@ -1,0 +1,236 @@
+{
+  "users": {
+    "7077153651": {
+      "username": "storeyandex",
+      "first_name": "Yandex Store",
+      "created_at": "2025-04-25T08:41:25.029698"
+    },
+    "1465028680": {
+      "username": "nameRussian",
+      "first_name": "Дмитрий",
+      "created_at": "2025-04-25T11:16:12.480123"
+    }
+  },
+  "orders": {
+    "1": {
+      "id": "1",
+      "user_id": 7077153651,
+      "game": "Super Sus",
+      "currency": "Супер ВИП Карта",
+      "amount": 850,
+      "game_id": "23423423",
+      "payment_method": null,
+      "status": "выполнен",
+      "created_at": "2025-04-25T08:41:50.696375",
+      "updated_at": "2025-04-25T10:03:09.347209"
+    },
+    "2": {
+      "id": "2",
+      "user_id": 7077153651,
+      "game": "ВКонтакте",
+      "currency": "1 голос",
+      "amount": 7.5,
+      "game_id": "234234234",
+      "payment_method": null,
+      "status": "отменён",
+      "created_at": "2025-04-25T08:41:57.370654",
+      "updated_at": "2025-04-25T08:42:02.675170"
+    },
+    "3": {
+      "id": "3",
+      "user_id": 7077153651,
+      "game": "Mobile Legends: Bang Bang",
+      "currency": "Алмазный пропуск (неделя)",
+      "amount": 199,
+      "game_id": "24234234(1231)",
+      "payment_method": "Банк",
+      "status": "в работе",
+      "created_at": "2025-04-25T08:42:08.467736",
+      "updated_at": "2025-04-25T08:43:55.252451"
+    },
+    "4": {
+      "id": "4",
+      "user_id": 7077153651,
+      "game": "Standoff 2",
+      "currency": "+10 уровней",
+      "amount": 840,
+      "game_id": "4235132123",
+      "payment_method": "TON",
+      "status": "в работе",
+      "created_at": "2025-04-25T08:53:27.137508",
+      "updated_at": "2025-04-25T09:09:13.882169"
+    },
+    "5": {
+      "id": "5",
+      "user_id": 7077153651,
+      "game": "Mobile Legends: Bang Bang",
+      "currency": "239+25 алмазов",
+      "amount": 525,
+      "game_id": "123122432(1231)",
+      "payment_method": "USDT",
+      "status": "выполнен",
+      "created_at": "2025-04-25T08:54:30.819835",
+      "updated_at": "2025-04-25T09:09:14.996994"
+    },
+    "6": {
+      "id": "6",
+      "user_id": 7077153651,
+      "game": "Free Fire",
+      "currency": "2180+218",
+      "amount": 1520,
+      "game_id": "235923842",
+      "payment_method": "Банк",
+      "status": "ожидает проверки",
+      "created_at": "2025-04-25T09:11:09.377321",
+      "updated_at": "2025-04-25T09:12:56.270683"
+    },
+    "7": {
+      "id": "7",
+      "user_id": 7077153651,
+      "game": "Free Fire",
+      "currency": "Ваучер на неделю",
+      "amount": 149,
+      "game_id": "98098084",
+      "payment_method": "TON",
+      "status": "ожидает проверки",
+      "created_at": "2025-04-25T09:13:25.641398",
+      "updated_at": "2025-04-25T09:13:28.745031"
+    },
+    "8": {
+      "id": "8",
+      "user_id": 7077153651,
+      "game": "Standoff 2",
+      "currency": "Gold Pass",
+      "amount": 860,
+      "game_id": "1982394132412",
+      "payment_method": "USDT",
+      "status": "выполнен",
+      "created_at": "2025-04-25T09:13:43.268609",
+      "updated_at": "2025-04-25T09:13:49.500894"
+    },
+    "9": {
+      "id": "9",
+      "user_id": 7077153651,
+      "game": "Mobile Legends: Bang Bang",
+      "currency": "239+25 алмазов",
+      "amount": 525,
+      "game_id": "34112341(1111)",
+      "payment_method": "Банк",
+      "status": "ожидает проверки",
+      "created_at": "2025-04-25T09:14:04.076236",
+      "updated_at": "2025-04-25T09:14:05.605769"
+    },
+    "10": {
+      "id": "10",
+      "user_id": 7077153651,
+      "game": "Super Sus",
+      "currency": "Набор Super Pass",
+      "amount": 560,
+      "game_id": "42352345143",
+      "payment_method": "USDT",
+      "status": "в работе",
+      "created_at": "2025-04-25T09:14:14.419366",
+      "updated_at": "2025-04-25T09:14:20.606147"
+    },
+    "11": {
+      "id": "11",
+      "user_id": 7077153651,
+      "game": "ВКонтакте",
+      "currency": "1 голос",
+      "amount": 7.5,
+      "game_id": "12312365234",
+      "payment_method": "Банк",
+      "status": "выполнен",
+      "created_at": "2025-04-25T09:14:36.474769",
+      "updated_at": "2025-04-25T10:03:46.165463"
+    },
+    "12": {
+      "id": "12",
+      "user_id": 7077153651,
+      "game": "Free Fire",
+      "currency": "310+16",
+      "amount": 240,
+      "game_id": "739761232",
+      "payment_method": null,
+      "status": "отменён",
+      "created_at": "2025-04-25T10:25:44.028169",
+      "updated_at": "2025-04-25T10:25:45.889616"
+    },
+    "13": {
+      "id": "13",
+      "user_id": 7077153651,
+      "game": "Super Sus",
+      "currency": "Набор Super Pass",
+      "amount": 560,
+      "game_id": "398112312",
+      "payment_method": "Банк",
+      "status": "в работе",
+      "created_at": "2025-04-25T10:25:51.858684",
+      "updated_at": "2025-04-25T10:27:15.827385"
+    },
+    "14": {
+      "id": "14",
+      "user_id": 7077153651,
+      "game": "Standoff 2",
+      "currency": "1000",
+      "amount": 945,
+      "game_id": "234234234",
+      "payment_method": null,
+      "status": "отменён",
+      "created_at": "2025-04-25T10:38:05.184986",
+      "updated_at": "2025-04-25T10:59:48.210581"
+    },
+    "15": {
+      "id": "15",
+      "user_id": 7077153651,
+      "game": "Super Sus",
+      "currency": "2180",
+      "amount": 1250,
+      "game_id": "90871489345",
+      "payment_method": "TON",
+      "status": "выполнен",
+      "created_at": "2025-04-25T10:59:53.442314",
+      "updated_at": "2025-04-25T11:00:14.458796"
+    },
+    "16": {
+      "id": "16",
+      "user_id": 7077153651,
+      "game": "Free Fire",
+      "currency": "100+5",
+      "amount": 75,
+      "game_id": "89798234",
+      "payment_method": "USDT",
+      "status": "выполнен",
+      "created_at": "2025-04-25T11:01:00.404489",
+      "updated_at": "2025-04-25T11:02:14.594342"
+    },
+    "17": {
+      "id": "17",
+      "user_id": 1465028680,
+      "game": "Русская Рыбалка",
+      "currency": "50 золота",
+      "amount": 4490,
+      "game_id": "45667845",
+      "payment_method": "Банк",
+      "status": "выполнен",
+      "created_at": "2025-04-25T11:17:48.267544",
+      "updated_at": "2025-04-25T11:20:20.416495"
+    },
+    "18": {
+      "id": "18",
+      "user_id": 7077153651,
+      "game": "Русская Рыбалка",
+      "currency": "50 золота",
+      "amount": 4490,
+      "game_id": "465356757",
+      "payment_method": null,
+      "status": "отменён",
+      "created_at": "2025-04-25T11:17:50.074029",
+      "updated_at": "2025-04-25T11:19:06.593495"
+    }
+  },
+  "admins": [
+    872122845
+  ],
+  "last_order_id": 18
+}
